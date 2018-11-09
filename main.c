@@ -69,7 +69,7 @@
 /*
  * Function 	: division
  * Attributes 	: none
- * Description  : Ask for two numbers and prints its multiplication
+ * Description  : Ask for two numbers and prints its division
  * Method Type	: void 
  */
  void division() {
@@ -95,7 +95,7 @@
 /*
  * Function 	: squareRoot
  * Attributes 	: none
- * Description  : Ask for two numbers and prints its multiplication
+ * Description  : Ask for two numbers and prints its square root
  * Method Type	: void 
  */
  void squareRoot() {
@@ -114,7 +114,7 @@
 /*
  * Function 	: square
  * Attributes 	: none
- * Description  : Ask for two numbers and prints its multiplication
+ * Description  : Ask for two numbers and prints its square
  * Method Type	: void 
  */
  void square() {
@@ -133,7 +133,7 @@
 /*
  * Function 	: power
  * Attributes 	: none
- * Description  : Ask for two numbers and prints its multiplication
+ * Description  : Ask for two numbers and prints its power
  * Method Type	: void 
  */
  void power() {
@@ -154,7 +154,7 @@
 /*
  * Function 	: modules
  * Attributes 	: none
- * Description  : Ask for two numbers and prints its multiplication
+ * Description  : Ask for two numbers and prints its modules
  * Method Type	: void 
  */
  void modules() {
