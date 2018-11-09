@@ -88,8 +88,26 @@
 	} else {
 	 	/* Output */
 	 	printf("Division of your numbers : %0.2f \n", numberOne / numberTwo);
-	}
+	}	
+ }
+ 
+
+/*
+ * Function 	: squareRoot
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void squareRoot() {
+ 	/* Variables */
+ 	float number;
  	
+ 	/* User Input */
+ 	printf("Enter number : ");
+ 	scanf("%f", &number);
+ 	
+ 	/* Output */
+ 	printf("Square Root of your number : %0.2f \n", sqrt(number));	
  }
 
 /*
@@ -129,7 +147,7 @@ void main() {
 					division();
 					break;
 				case 5:
-//					squareRoot();
+					squareRoot();
 					break;
 				case 6:
 //					square();
