@@ -109,6 +109,25 @@
  	/* Output */
  	printf("Square Root of your number : %0.2f \n", sqrt(number));	
  }
+  
+
+/*
+ * Function 	: square
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void square() {
+ 	/* Variables */
+ 	float number;
+ 	
+ 	/* User Input */
+ 	printf("Enter number : ");
+ 	scanf("%f", &number);
+ 	
+ 	/* Output */
+ 	printf("Square of your number : %0.2f \n", number * number);	
+ }
 
 /*
  * Function 	: main
@@ -150,7 +169,7 @@ void main() {
 					squareRoot();
 					break;
 				case 6:
-//					square();
+					square();
 					break;
 				case 7:
 //					power();
