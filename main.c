@@ -25,6 +25,27 @@
 
 
 /*
+ * Function 	: substract
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its substraction
+ * Method Type	: void 
+ */
+ void substract() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	/* Output */
+ 	printf("Substraction of your numbers : %0.2f \n", numberOne - numberTwo);
+ }
+
+
+/*
  * Function 	: main
  * Attributes 	: none
  * Description  : Calls every method and run them
@@ -50,7 +71,7 @@ void main() {
 					sum();
 					break;
 				case 2:
-//					substract();
+					substract();
 					break;
 				case 3:
 //					multiplication();
