@@ -62,9 +62,35 @@
  	scanf("%f", &numberTwo);
  	
  	/* Output */
- 	printf("multiplication of your numbers : %0.2f \n", numberOne * numberTwo);
+ 	printf("Multiplication of your numbers : %0.2f \n", numberOne * numberTwo);
  }
 
+
+/*
+ * Function 	: division
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void division() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	if (numberTwo == 0) {
+ 		printf("You can not divide it with 0!!\n");
+ 		division();
+	} else {
+	 	/* Output */
+	 	printf("Division of your numbers : %0.2f \n", numberOne / numberTwo);
+	}
+ 	
+ }
 
 /*
  * Function 	: main
@@ -100,7 +126,7 @@ void main() {
 					multiplication();
 					break;
 				case 4:
-//					division();
+					division();
 					break;
 				case 5:
 //					squareRoot();
