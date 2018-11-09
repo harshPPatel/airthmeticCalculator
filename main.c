@@ -128,6 +128,27 @@
  	/* Output */
  	printf("Square of your number : %0.2f \n", number * number);	
  }
+   
+
+/*
+ * Function 	: power
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void power() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	/* Output */
+ 	printf("Power of your number : %0.2f \n", pow(numberOne, numberTwo));	
+ }
 
 /*
  * Function 	: main
@@ -172,7 +193,7 @@ void main() {
 					square();
 					break;
 				case 7:
-//					power();
+					power();
 					break;
 				case 8:
 //					modules();
