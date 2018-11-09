@@ -4,6 +4,27 @@
 #include<stdbool.h>
 
 /*
+ * Function 	: sum
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its sum
+ * Method Type	: void 
+ */
+ void sum() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	/* Output */
+ 	printf("Sum of your numbers : %0.2f \n", numberOne + numberTwo);
+ }
+
+
+/*
  * Function 	: main
  * Attributes 	: none
  * Description  : Calls every method and run them
@@ -26,7 +47,7 @@ void main() {
 		} else {
 			switch(userChoice) {
 				case 1:
-//					sum();
+					sum();
 					break;
 				case 2:
 //					substract();
