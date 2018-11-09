@@ -46,6 +46,27 @@
 
 
 /*
+ * Function 	: multiplication
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void multiplication() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	/* Output */
+ 	printf("multiplication of your numbers : %0.2f \n", numberOne * numberTwo);
+ }
+
+
+/*
  * Function 	: main
  * Attributes 	: none
  * Description  : Calls every method and run them
@@ -76,7 +97,7 @@ void main() {
 					substract();
 					break;
 				case 3:
-//					multiplication();
+					multiplication();
 					break;
 				case 4:
 //					division();
