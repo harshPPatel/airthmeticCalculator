@@ -149,6 +149,27 @@
  	/* Output */
  	printf("Power of your number : %0.2f \n", pow(numberOne, numberTwo));	
  }
+    
+
+/*
+ * Function 	: modules
+ * Attributes 	: none
+ * Description  : Ask for two numbers and prints its multiplication
+ * Method Type	: void 
+ */
+ void modules() {
+ 	/* Variables */
+ 	float numberOne, numberTwo;
+ 	
+ 	/* User Input */
+ 	printf("Enter number One : ");
+ 	scanf("%f", &numberOne);
+ 	printf("Enter number Two : ");
+ 	scanf("%f", &numberTwo);
+ 	
+ 	/* Output */
+ 	printf("Modules of your number : %d \n", (int)numberOne % (int)numberTwo);	
+ }
 
 /*
  * Function 	: main
@@ -196,7 +217,7 @@ void main() {
 					power();
 					break;
 				case 8:
-//					modules();
+					modules();
 					break;
 				default:
 					return;
