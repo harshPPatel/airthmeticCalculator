@@ -56,6 +56,29 @@
  * Description  : Ask for two numbers and prints its substraction
  * Method Type	: void 
  */
+ 
+ /**
+ * \brief Function named substract which ask user for two numbers, make substraction of them and prints it to the console
+ * 
+ * \fn substract
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  substract();
+ *  
+ *  \endcode
+ */
  void substract() {
  	/* Variables */
  	float numberOne, numberTwo;
@@ -77,6 +100,29 @@
  * Description  : Ask for two numbers and prints its multiplication
  * Method Type	: void 
  */
+ 
+ /**
+ * \brief Function named multiplication which ask user for two numbers, make multiplication of them and prints it to the console
+ * 
+ * \fn multiplication
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  multiplication();
+ *  
+ *  \endcode
+ */
  void multiplication() {
  	/* Variables */
  	float numberOne, numberTwo;
@@ -97,6 +143,31 @@
  * Attributes 	: none
  * Description  : Ask for two numbers and prints its division
  * Method Type	: void 
+ */
+ 
+ /**
+ * \brief Function named division which ask user for two numbers, an  make division of them and prints it to the console
+ *  
+ * Function named division which ask user for two numbers, validates that The Second number is not zero, if it is than uses the recursion and runs the method again, and then make division of them and prints it to the console
+ *
+ * \fn division
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  division();
+ *  
+ *  \endcode
  */
  void division() {
  	/* Variables */
@@ -124,6 +195,28 @@
  * Description  : Ask for two numbers and prints its square root
  * Method Type	: void 
  */
+/**
+ * \brief Function named squareRoot which ask user for a number, finds squareroot of it and prints it to the console
+ * 
+ * \fn squareRoot
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>number : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  squareRoot();
+ *  
+ *  \endcode
+ */
+ 
  void squareRoot() {
  	/* Variables */
  	float number;
@@ -143,6 +236,27 @@
  * Description  : Ask for two numbers and prints its square
  * Method Type	: void 
  */
+/**
+ * \brief Function named square which ask user for two numbers, make square of it and prints it to the console
+ * 
+ * \fn square
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>number : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  square();
+ *  
+ *  \endcode
+ */
  void square() {
  	/* Variables */
  	float number;
@@ -161,6 +275,29 @@
  * Attributes 	: none
  * Description  : Ask for two numbers and prints its power
  * Method Type	: void 
+ */
+ 
+/**
+ * \brief Function named power which ask user for two numbers, make power of them and prints it to the console
+ * 
+ * \fn power
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  power();
+ *  
+ *  \endcode
  */
  void power() {
  	/* Variables */
@@ -183,6 +320,28 @@
  * Description  : Ask for two numbers and prints its modules
  * Method Type	: void 
  */
+/**
+ * \brief Function named modules which ask user for two numbers, make modules of them and prints it to the console
+ * 
+ * \fn modules
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  modules();
+ *  
+ *  \endcode
+ */
  void modules() {
  	/* Variables */
  	float numberOne, numberTwo;
@@ -202,6 +361,27 @@
  * Attributes 	: none
  * Description  : Calls every method and run them
  * Method Type	: void 
+ */
+ 
+  /**
+ * \brief main function which runs the program
+ * 
+ * \fn main
+ * 
+ *  <P>
+ * 		Main functions runs when program runs. <br>
+ * 		It prints the instructions and ask for the choice to the user. It uses the while loop to run this calculator continuous. <br>
+ *		While loop breaks when user enter 9 in the console. <br>
+ *	</P>
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>userChoice : (type: int) To save user input for the choice of the different options</LI>
+ *      </UL>
+ *  </P>
+ *  
  */
  
  	/* TODD: MAKE README FILE!!!!*/
