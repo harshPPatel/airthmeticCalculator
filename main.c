@@ -1,13 +1,39 @@
+/**
+ * \file main.c
+ * \author Harsh
+ * \date 29 Sep 2018
+ * \brief Airthmetic Calculator built on C Language
+ *
+ * \see http://harshppatel.gtihub.io
+ */
+
+
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
 #include<stdbool.h>
 
-/*
- * Function 	: sum
- * Attributes 	: none
- * Description  : Ask for two numbers and prints its sum
- * Method Type	: void 
+/**
+ * \brief Function named sum which ask user for two numbers, make addition of them and prints it to the console
+ * 
+ * \fn sum
+ * 
+ *  <P> 
+ * 		<STRONG>Attributes</STRONG> : None <br>
+ *  	<STRONG>Function type</STRONG> : Void <br>
+ *		<STRONG>Variables</STRONG> : 
+ *		<UL>
+ *			<LI>numberOne : (type: float) To save user input</LI>
+ *			<LI>numberTwo : (type: float) To save user input</LI>
+ *      </UL>
+ *  </P>
+ *  \code
+ * 
+ *  Example of Use Of The Method
+ *  
+ *  sum();
+ *  
+ *  \endcode
  */
  void sum() {
  	/* Variables */
