@@ -2,6 +2,8 @@
 
 An C language, console based program which provides different options to the user of different Airthmetic Operations. It have different methods for all different operators and switch statement is used to check user input. While loop is used to run this function continuously. But it breaks the loop when user enters 9 in the console.
 
+See Documentation [here](https://harshppatel.github.io/airthmetic%20Calculator%20Documentation%20C%20Language/main_8c.html).
+
 ### includes :
 - stdio.h
 - conio.h
