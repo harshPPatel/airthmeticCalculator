@@ -5,22 +5,6 @@ An C language, console based program which provides different options to the use
 Checkout Live demo here: [Arithmetic Calculator](https://repl.it/@harshPPatel/Arithmetic-Calculator)
 See Documentation [here](https://harshppatel.github.io/airthmetic%20Calculator%20Documentation%20C%20Language/main_8c.html).
 
-### includes :
-- stdio.h
-- conio.h
-- math.h
-- stdbool.h
-
-### Included Methods : 
-- sum
-- substract
-- multiplication
-- division
-- squareRoot
-- square
-- power
-- modules
-
 ### Included Operations : 
 - Addition
 - Substraction
